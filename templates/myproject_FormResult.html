@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="linkcssportfolio.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <!-- <li><a href="G:\python_tcs\Django_start\portfolio\Home.html">Home</a></li>
+      <li><a href="G:\python_tcs\Django_start\portfolio\myproject.html">MyProjects</a></li> -->
+      <li><a href="{% url 'home' %}">Home</a></li>
+      <li><a href="{% url 'myproject' %}">MyProjects</a></li>
+      <br>
+      <p>movie input by user is->: {{form_input}}</p>
+
+    </ul>
+  </body>
+</html>

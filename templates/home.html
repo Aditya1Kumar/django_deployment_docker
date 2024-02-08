@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <link rel="stylesheet" href="linkcssportfolio.css"> -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'linkcssportfolio.css' %}">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div>
+
+      <ul class="bgc">
+        <!-- <li><a href="G:\python_tcs\Django_start\portfolio\Home.html">Home</a></li>
+        <li><a href="G:\python_tcs\Django_start\portfolio\myproject.html">MyProjects</a></li> -->
+
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'myproject' %}">MyProjects</a></li>
+
+      </ul>
+      <div class="pos1Absolute">
+        <p><h2><em><mark>Portfolio Site</mark></em></h2></p>
+      </div>
+
+      <p>Welcome to my <b>about page</b>. My name is Aditya Kumar. I am 2021 passout Btech C.S.E graduate. <br>
+        I have keen interest in Automation,Machine Learning and in Open RAN technologies.<br>
+        I am self-driven and constantly learning new technologies.
+         <b><u><i>Welcome!</b></u></i>  </p>
+      <div class="posAbsolute">
+        <img src="{% static 'Aditya.jpg' %}" alt="Image Not Found" width="120" height="120"><br>
+      </div>
+
+      <div class="pos2Absolute">
+        <p> Email-id:adityakg7489@gmail.com<br> LinkedIn:<a href="https://www.linkedin.com/in/aditya-kumar-believer/">Aditya-Kumar</a> <br>
+        Codechef:<a href="https://www.codechef.com/users/aditya7489123/">codechef</a>
+
+          </p>
+
+
+      </div>
+
+
+    </div>
+
+<div class="posRelative">
+  <p><b><h1 class="headingpara bgc"><i>Skills:</h1></i></b></p>
+
+  <ol>
+  <li><b>WEB DEVELOPMENT</b> (Html,Css,Javascript,Django) </li>
+  <li><b>DBMS</b> (Postgress, Mysql, Apache Spark)</li>
+  <li><b>Automation</b> (Selenium, Appium), PYTHON modules for scripting(OS,SubProcess,RE,Paramiko etc..)</li>
+  <li><b>Machine Learning , Statistics, Deep Learning, Data Science</b></li>
+  <li><b>Docker, Kubernetes, Helm, Jenkins, CI/CD, GIT</b></li>
+  <li><b>Computer Network</b></li>
+  <li><b>4G, 5G (SA, NSA)Architecture, CUCP, DU, PTP containerization. Writing TCP,UDP, Android Testcases etc..</b></li>
+  </ol>
+  <p class="headingpara bgc"><i><b>Certification</b></i></p>
+
+  <table>
+
+  <tr>
+    <th>CourseName</th>
+    <th>CertificateLink</th>
+  </tr>
+
+  <tr>
+    <td><li>Complete DSA Course in PYTHON-- Elshad Karimov</li></td>
+    <td><a href="#">udemylink1</a></td>
+  </tr>
+
+  <tr>
+    <td><li>Full Stack Web DEvelopment and AI with Python(Django-- John Harper</li></td>
+    <td><a href="#">udemylink1</a></td>
+  </tr>
+
+  <tr>
+    <td><li>Python and Django Full Stack Web Developer-- Jose Portilla</li></td>
+    <td><a href="#">udemylink1</a></td>
+  </tr>
+
+  <tr>
+    <td><li>Automate Everything with Python-- Ardit Sulce</li></td>
+    <td><a href="#">udemylink1</a></td>
+  </tr>
+
+  <tr>
+    <td><li>Python Scripting for Automation-- Narendra P</li></td>
+    <td><a href="#">udemylink1</a></td>
+  </tr>
+
+  <tr>
+    <td><li>Docker and Kubernetes-- Stephen Grider</li></td>
+    <td> <a href="#">udemylink1</a> </td>
+  </tr>
+
+
+  <tr>
+
+    <td><li>Data Science-- Internshala</li></td>
+    <td> <a href="#">InternshalaLink</a> </td>
+
+  </tr>
+
+
+
+
+  </table>
+
+
+<div class="pos3Absolute">
+  <p><b><h1 class="headingpara bgc"><i>Experience</b></h1></i></p>
+  1) tcs --9months Experience as Analyst<br>
+  2) Mavenir-- currently in R&D in openRAN and Automation(1yr ..)
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+    </ul>
+  </body>
+</html>

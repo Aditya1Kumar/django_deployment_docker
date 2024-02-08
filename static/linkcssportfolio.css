@@ -1,0 +1,100 @@
+table,th,td{
+  background-color: aqua;
+  border: 2px solid pink;
+  color: black;
+  /* border-collapse: collapse; */
+}
+
+
+tr:hover td {
+  background-color: #C7C7C7;
+}
+tr:hover th {
+  background-color: #C7C7C7;
+}
+
+th{
+  height: 25px;
+
+}
+img{
+  border: 3px solid grey;
+  filter: grayscale(30%);
+
+}
+img:hover{
+  filter: grayscale(0%);
+  filter: brightness(100%);
+  filter: saturate(100%);
+
+}
+
+h2{
+  text-align: center;
+}
+ol{
+  background-color: aquamarine;
+}
+body{
+  background-color: #E6F3FA;
+  box-shadow: white
+
+}
+
+
+
+
+
+.posRelative{
+  position: relative;
+  top: 20px;
+  /* right: 0px; */
+}
+
+.posAbsolute{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.pos1Absolute{
+  position: absolute;
+  top: 0px;
+  right: 600px;
+}
+
+.pos2Absolute{
+  position: absolute;
+  top: 0px;
+  right: 130px;
+}
+
+.pos3Absolute{
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  background-color: lightgreen;
+}
+
+
+.headingpara{
+  color: DarkCyan;
+  font-size: 30px;
+  font-family: sans-serif;
+  /* background-color: DarkGrey; */
+}
+.bgc{
+  background-color: FloralWhite;
+}
+
+a:link{
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover{
+  background-color: salmon;
+  text-decoration: underline;
+  font-size:20px;
+  border-radius: 30px 30px 30px 30px;
+
+
+}

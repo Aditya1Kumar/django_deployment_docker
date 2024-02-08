@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="linkcssportfolio.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <!-- <li><a href="G:\python_tcs\Django_start\portfolio\Home.html">Home</a></li>
+      <li><a href="G:\python_tcs\Django_start\portfolio\myproject.html">MyProjects</a></li> -->
+      <li><a href="{% url 'home' %}">Home</a></li>
+      <li><a href="{% url 'myproject' %}">MyProjects</a></li>
+
+      
+      <form action="{% url 'myproject_Form' %}" >
+        {% csrf_token %}
+        <h4> give the similar movie name you want to watch </h4>
+        <input type="text" name="user_input"  placeholder="viking">
+        <input type="submit" name="" value="submit">
+
+      </form>
+
+    </ul>
+  </body>
+</html>
